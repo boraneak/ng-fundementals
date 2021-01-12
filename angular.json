@@ -28,13 +28,12 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/ngf-bootstrap/dist/boostrap.min.js",
+              "node_modules/ngf-bootstrap/dist/boostrap.min.css",
               "src/styles.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/ngf-bootstrap/dist/boostrap.min.js"
-
+              "node_modules/bootstrap/dist/js/boostrap.js"
             ]
           },
           "configurations": {
@@ -129,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "ng-fundementals"
+  "defaultProject": "ng-fundementals",
+  "cli": {
+    "analytics": "a3042e5d-b825-47a6-871a-7ca4258c601b"
+  }
 }
